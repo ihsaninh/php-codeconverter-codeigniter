@@ -1,0 +1,293 @@
+body {
+	font-family: Roboto;
+	color: #54667a;
+}
+
+.navbar {
+	background: #00BCD4;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #ffffff;	
+	font-weight: 500;
+}
+
+.btn-link {
+	width: 252px;
+	height: 62px;
+	color: #fff;
+	background-color: #00BCD4;
+	line-height: 2;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	border-radius: 100px;
+}
+
+.judul-index {
+	font-family: Roboto;
+	font-weight: 500;
+}
+
+.btn-link:hover {
+	color: #fff;
+	text-decoration: none;
+  	background-color: rgb(0, 156, 177);
+  	border-color: rgb(0, 156, 177);
+}
+
+.btn-custom {
+	color: #fff;
+	background-color: #00b0c6;
+	border-radius: 7px;
+}
+
+.btn-custom:hover {
+	background-color: #0090a3;
+  	color: #fff;
+}
+
+.nav-link {
+	font-size: 15px;
+}
+
+.nav-link:last-child {
+	margin-right: 20px; 
+}
+
+.fa {
+	padding-right: 0.5em;
+}
+
+.title{
+	color: #ffffff;
+	font-weight: 600;
+	font-family: Roboto;
+	margin-left: 2px;
+}
+
+.title-index {
+	color: #ffffff;
+	font-weight: 600 !important;
+	font-family: Roboto;
+	margin-left: 10px;
+}
+
+.convert {
+	margin-bottom: 5px;
+}
+
+#body-row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#sidebar-container {
+	min-height: 100vh;
+	background-color: #fff;
+	padding: 0;
+}
+
+.dropdown-menu {
+	overflow-y: scroll;
+	height: 400px;
+	background-color: #00BCD4;
+}
+
+.dropdown-menu a {
+	color: #ffffff;
+}
+
+.dropdown-menu a:hover {
+	background-color: #02b4cc;
+	color: #ffffff;
+}
+
+.sidebar-expanded {
+	width: 310px;
+}
+
+.sidebar-collapsed {
+	width: 60px;
+}
+
+
+#sidebar-container .list-group .sidebar-submenu a {
+	height: 45px;
+	padding-left: 30px;
+}
+
+.sidebar-submenu {
+	font-size: 0.9rem;
+}
+
+
+.sidebar-separator-title {
+	background-color: #fff;
+	height: 35px;
+}
+
+.sidebar-separator {
+	background-color: #fff;
+	height: 25px;
+}
+
+.logo-separator {
+	background-color: #fff;
+	height: 60px;
+}
+
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+	content: " \f0d7";
+	font-family: FontAwesome;
+	display: inline;
+	text-align: right;
+	padding-left: 10px;
+}
+
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+	content: " \f0da";
+	font-family: FontAwesome;
+	display: inline;
+	text-align: right;
+	padding-left: 10px;
+}
+
+.list-group-item {
+	color: #54667a;
+	border: none;
+}
+
+.list-group-item.active {
+	color: #4c5b6b;
+	background-color: #f8f9fa;
+	border-left: 4px solid #00ACC1;
+	font-weight: 700;
+	font-size: 14.8px; 
+	border-radius: 0px;
+}
+
+.footer {
+	width: 100%;
+}
+
+.footer .card-header {
+	background-color: #fff;
+}
+
+.footer .card-header p {
+	font-size: 12px;
+	padding-top: 15px;
+}
+
+.footer-index {
+	width: 100%;
+}
+
+.footer-index .card-header p {
+	font-size: 12px;
+	padding-top: 15px;
+}
+
+.margin-atas {
+	margin-top: 58px;
+}
+
+.blockquote p{
+  font-size: 14px;
+}
+
+.card {
+	border: none;
+}
+
+.li {
+	list-style-type: none;
+	font-size: 14px;
+	padding-bottom: 2px;
+	padding-top: 10px;
+	margin-left: -30px;
+}
+.mtop {
+	margin-top: 65px;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #eee !important;
+}
+
+.list-group {
+	overflow-y: scroll;
+	width: 310px;
+	height: calc(100% - 60px);
+	position: fixed;
+}
+
+.bd-bq, .bd-bl {
+	padding: .30rem 1.25rem;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+	border-left: .15rem solid #00ACC1;
+}
+
+.bd-bl {
+	border-left: .2rem solid #00ACC1;
+}
+
+.mylist {
+	margin-left: -25px;
+}
+
+.mylist li {
+	padding-bottom: 8px;
+}
+
+.category-list {
+	font-size: 13px;
+}
+.category-list ul {
+	list-style: none;
+	padding-left: 0;
+}
+.category-list ul li a{
+	color: #858796;
+}
+
+.title-footer-list {
+	font-weight: 500;
+}
+
+@media (min-width: 992px) {
+	.text-footer {
+		text-align: center;
+	}
+	.navbar-nav a::after {
+		content : '|';
+		margin: 0 0 0 10px;
+	}
+	.footer {
+		margin-left: 300px;
+	}
+}
+
+@media (max-width: 768px) {
+  .container {
+	    width: 100%;
+	    max-width: none;
+	}
+
+	.mrsub {
+		margin-top: 15px;
+		margin-left: 5px;
+	}
+	
+	.btn-link {
+		width: 120px;
+		line-height: 20px;
+		font-size: 13px;
+		border-radius: 10px;
+		color: #00BCD4;
+		background-color: #fff;
+		border: 3px solid #00BCD4;
+	}
+}
